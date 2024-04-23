@@ -1,3 +1,11 @@
-Title: {{ .title }}
+<head>
+<title>
+    {{ .title }}
+</title>
+</head>
 
-index template: {{template "content" .}}
+<body>
+    <div class="content" align='center'>
+        {{template "content" .}}
+    </div>
+</body>
